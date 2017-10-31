@@ -1,0 +1,17 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "vendor",
+    "description": "Products vendors"
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "products": {
+      "collection": "product",
+      "via": "vendors"
+    }
+  }
+}

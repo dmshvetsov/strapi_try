@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "image",
+    "description": "Image for other content"
+  },
+  "attributes": {
+    "path": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "product": {
+      "model": "product",
+      "via": "images"
+    }
+  }
+}

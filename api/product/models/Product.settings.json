@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "product",
+    "description": "Store product"
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "price_cents": {
+      "type": "integer",
+      "required": true
+    },
+    "images": {
+      "collection": "image",
+      "via": "product"
+    },
+    "vendors": {
+      "collection": "vendor",
+      "via": "products",
+      "dominant": true
+    }
+  }
+}
