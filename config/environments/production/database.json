@@ -7,7 +7,7 @@
         "client": "mongo",
         "host": "localhost",
         "port": 27017,
-        "database": "production",
+        "database": "strapytry",
         "username": "",
         "password": ""
       },
